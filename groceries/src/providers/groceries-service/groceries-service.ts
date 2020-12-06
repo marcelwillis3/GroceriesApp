@@ -14,7 +14,8 @@ export class GroceriesServiceProvider {
 
   items = <any>[];
   dataChanged$: Observable<boolean>;
-  baseURL = "http://localhost:8080";
+  //baseURL = "http://localhost:8080";
+  baseURL = "https://marcel-groceries-app.herokuapp.com"
   
   private dataChangedSubject: Subject<boolean>;
 
